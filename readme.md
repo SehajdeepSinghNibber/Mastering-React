@@ -1,6 +1,6 @@
-# React Web Application
+# Mastering-React
 
-A modern, scalable web application built using React, focused on clean architecture, state management, performance optimization, and polished user experience.
+Mastering-React is a living collection of concise explanations, runnable examples, and progressive projects that teach what you actually need to build reliable, maintainable, and performant React apps. I don’t promise you’ll “master” React — that’s a myth — but this repo will make you far less average.
 
 ---
 
@@ -163,62 +163,6 @@ Building expertise in development workflows:
 - **Understanding React warnings and errors** - Identifying and fixing common React issues
 - **Using browser and React dev tools** - Chrome DevTools and React Developer Tools extension
 - **Profiling performance bottlenecks** - Identifying slow components with React Profiler
-
----
-
-## 📁 Project Structure (Example)
-
-```
-src/
-├── components/
-│   ├── Common/
-│   │   ├── Header.jsx
-│   │   ├── Footer.jsx
-│   │   └── Navigation.jsx
-│   ├── Features/
-│   │   ├── Dashboard/
-│   │   ├── Profile/
-│   │   └── Settings/
-│   └── UI/
-│       ├── Button.jsx
-│       ├── Card.jsx
-│       └── Modal.jsx
-├── pages/
-│   ├── Home.jsx
-│   ├── About.jsx
-│   ├── NotFound.jsx
-│   └── Dashboard.jsx
-├── store/
-│   ├── redux/
-│   │   ├── store.js
-│   │   ├── slices/
-│   │   └── selectors/
-│   └── zustand/
-│       └── appStore.js
-├── hooks/
-│   ├── useAuth.js
-│   ├── useFetch.js
-│   └── useLocalStorage.js
-├── context/
-│   ├── AuthContext.jsx
-│   └── ThemeContext.jsx
-├── services/
-│   ├── api.js
-│   ├── authService.js
-│   └── userService.js
-├── animations/
-│   ├── pageTransitions.js
-│   └── componentAnimations.js
-├── styles/
-│   ├── global.css
-│   ├── variables.css
-│   └── responsive.css
-├── utils/
-│   ├── helpers.js
-│   └── validators.js
-├── App.jsx
-└── main.jsx
-```
 
 ---
 
