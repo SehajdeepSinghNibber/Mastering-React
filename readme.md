@@ -1,6 +1,7 @@
 # Mastering-React
 
 Mastering-React is a living collection of concise explanations, runnable examples, and progressive projects that teach what you actually need to build reliable, maintainable, and performant React apps. I don’t promise you’ll “master” React — that’s a myth — but this repo will make you far less average.
+
 ---
 
 ## 🚀 Tech Stack
