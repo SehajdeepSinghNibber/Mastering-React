@@ -1,16 +1,98 @@
-# React + Vite
+# 📝 Notes App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **CRUD Notes Application** built using **React and Vite**.
+This application allows users to create notes with a **task title** and **description**, view them instantly, and delete them when no longer needed.
 
-Currently, two official plugins are available:
+This project focuses on understanding **React state management and dynamic rendering**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* ➕ Create a new note
+* 📖 View all notes
+* ❌ Delete notes
+* ⚡ Instant UI updates using React state
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+* **React**
+* **Vite**
+* **JavaScript (ES6)**
+* **CSS**
+
+---
+
+## 📂 Project Structure
+
+```
+Notes-app
+│
+├── public
+├── src
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+│
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/SehajdeepSinghNibber/Notes-app.git
+```
+
+Move into the project directory
+
+```bash
+cd notes-app
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 💡 How It Works
+
+1. The user enters a **task title** and **description**.
+2. The note is stored in **React state**.
+3. All notes are displayed dynamically in the UI.
+4. Users can **delete notes**, which removes them from the state.
+
+---
+
+## 📌 Future Improvements
+
+* Edit notes
+* Store notes using **Local Storage**
+* Backend integration
+* Authentication
+
+---
+
+## 👨‍💻 Author
+
+**Sehajdeep Singh**
